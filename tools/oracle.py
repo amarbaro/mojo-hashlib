@@ -1,4 +1,4 @@
-"""Oracle: hashlib (sha256, sha1, md5, blake2b-256) over fixed byte inputs, and
+"""Oracle: hashlib (sha256, sha1, md5) over fixed byte inputs, and
 shlex.quote / shlex.join / shlex.split over fixed strings. One result per line."""
 import hashlib, random, shlex
 r = random.Random(1)

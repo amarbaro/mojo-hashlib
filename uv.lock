@@ -62,16 +62,6 @@ wheels = [
 ]
 
 [[package]]
-name = "mojo-lldb-libs"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/29/1b39441a9932fc273bb689fc2246edf3ab536fd8bacb8ac46ab367f369b4/mojo_lldb_libs-1.1.0-py3-none-macosx_13_0_arm64.whl", hash = "sha256:788860810bdbabc636a18b464cb378087d98821ac4ca068d8bd52f38423eff09", size = 90694681, upload-time = "2026-09-17T15:46:24.293Z" },
-    { url = "https://files.pythonhosted.org/packages/2b/f7/ca628dab5ba5a9c5fc995d671fef1f9344d5684bd041372670a49846fbe2/mojo_lldb_libs-1.1.0-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:0bd5e3636c3444f2c88583127c8e9d9500016fe450a97096aac4ee2108325ce3", size = 90623810, upload-time = "2026-09-17T15:45:46.53Z" },
-    { url = "https://files.pythonhosted.org/packages/93/f3/abf242879fe2f26809faa351bfb52d0746c25dde78796c3c5b5443355ea5/mojo_lldb_libs-1.1.0-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:782ff566b14100634a717d5b59602e6b310f4480107e391047db31d14f3497aa", size = 93562266, upload-time = "2026-09-17T15:44:34.126Z" },
-]
-
-[[package]]
 name = "mojo-hashlib"
 version = "0.1.0"
 source = { virtual = "." }
@@ -81,6 +71,16 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [{ name = "mojo", specifier = ">=1.1.0,<1.2" }]
+
+[[package]]
+name = "mojo-lldb-libs"
+version = "1.1.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7b/29/1b39441a9932fc273bb689fc2246edf3ab536fd8bacb8ac46ab367f369b4/mojo_lldb_libs-1.1.0-py3-none-macosx_13_0_arm64.whl", hash = "sha256:788860810bdbabc636a18b464cb378087d98821ac4ca068d8bd52f38423eff09", size = 90694681, upload-time = "2026-09-17T15:46:24.293Z" },
+    { url = "https://files.pythonhosted.org/packages/2b/f7/ca628dab5ba5a9c5fc995d671fef1f9344d5684bd041372670a49846fbe2/mojo_lldb_libs-1.1.0-py3-none-manylinux_2_34_aarch64.whl", hash = "sha256:0bd5e3636c3444f2c88583127c8e9d9500016fe450a97096aac4ee2108325ce3", size = 90623810, upload-time = "2026-09-17T15:45:46.53Z" },
+    { url = "https://files.pythonhosted.org/packages/93/f3/abf242879fe2f26809faa351bfb52d0746c25dde78796c3c5b5443355ea5/mojo_lldb_libs-1.1.0-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:782ff566b14100634a717d5b59602e6b310f4480107e391047db31d14f3497aa", size = 93562266, upload-time = "2026-09-17T15:44:34.126Z" },
+]
 
 [[package]]
 name = "mypy-extensions"
