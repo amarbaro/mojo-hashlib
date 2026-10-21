@@ -1,5 +1,7 @@
 # mojo-hashlib
 
+[![CI](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml/badge.svg)](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml)
+
 sha256, sha1 and md5 plus shlex quote, join and split for Mojo, byte for byte the same
 as Python's `hashlib` and `shlex`. `shlex` runs about 28 times faster than Python and
 small hashes 2 times faster; bulk hashing of large inputs is slower than Python's
