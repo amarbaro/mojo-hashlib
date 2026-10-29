@@ -20,7 +20,7 @@ def main() raises:
 
 ## Install
 
-Requires Mojo 1.1. No system library: it is plain Mojo.
+Requires Mojo 1.2. No system library: it is plain Mojo.
 
 | Way | Command |
 |---|---|

@@ -5,7 +5,7 @@ description: "Hash with sha256, sha1 or md5 and quote, join or split shell words
 
 # mojo-hashlib
 
-sha256, sha1, md5 and shlex quote/join/split for Mojo 1.1. Plain Mojo, no system
+sha256, sha1, md5 and shlex quote/join/split for Mojo 1.2. Plain Mojo, no system
 library. Results are checked byte for byte against Python's `hashlib` and `shlex`.
 
 ## Install
