@@ -1,6 +1,9 @@
 # mojo-hashlib
 
-[![CI](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml/badge.svg)](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml)
+<!-- badges -->
+[![ci](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/amarbaro/mojo-hashlib/actions/workflows/ci.yml) [![latest release](https://img.shields.io/github/v/release/amarbaro/mojo-hashlib)](https://github.com/amarbaro/mojo-hashlib/releases/latest) [![license](https://img.shields.io/github/license/amarbaro/mojo-hashlib)](https://github.com/amarbaro/mojo-hashlib/blob/main/LICENSE)
+<!-- /badges -->
+
 
 sha256, sha1 and md5 plus shlex quote, join and split for Mojo, byte for byte the same
 as Python's `hashlib` and `shlex`. `shlex` runs about 28 times faster than Python and
