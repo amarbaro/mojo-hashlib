@@ -1,0 +1,4 @@
+name = "mojo-hashlib"
+version = "0.1.4"
+description = "Hashing and shell quoting for Mojo, byte-identical with Python hashlib and shlex"
+tags = ["mojo", "hash", "sha256", "md5"]
